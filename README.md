@@ -15,11 +15,11 @@ http://repo2.maven.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199.jar) file.
 
 ---
 ### RMI Server application
-Our [Server]() shares services, which enable a client to **open**, **read**, and **process** two types of data sources:
+Our [Server](https://github.com/elit0451/RMI-Processor/tree/master/StudentsRMI/Server) shares services, which enable a client to **open**, **read**, and **process** two types of data sources:
 - a text file, either [.txt](./Students.txt) or [.csv](./Students.csv)
 - SQL database
 
-_NB_:exclamation: You can change the input text file absolute path in [Client.java](). If you'd prefer to see the results from the Database, uncomment [the line]() and comment the text file input one.
+_NB_:exclamation: You can change the input text file absolute path in [Client.java](https://github.com/elit0451/RMI-Processor/blob/c356e538e1a10ee7548c61f22161f14e4d9914d4/StudentsRMI/Client/src/Client.java#L18). If you'd prefer to see the results from the Database, uncomment [the line](https://github.com/elit0451/RMI-Processor/blob/c356e538e1a10ee7548c61f22161f14e4d9914d4/StudentsRMI/Client/src/Client.java#L21) and comment the text file input one.
 
 </br>
 
@@ -42,7 +42,7 @@ VALUES ('John', 'jj@cphbusiness.dk', '12.03.1998', '28.01.2019'),
 
 ---
 ### RMI Client application
-The [Client]() application, on the other hand, can connect to the server and take use of the remote services.
+The [Client](https://github.com/elit0451/RMI-Processor/tree/master/StudentsRMI/Client) application, on the other hand, can connect to the server and take use of the remote services.
 
 </br>
 
