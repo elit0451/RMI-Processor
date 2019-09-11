@@ -15,10 +15,10 @@ public class Client {
         // Send requests to the remote services the usual way, as if they are local
         try {
             // Getting data from TXT/CSV file
-            //ArrayList<IStudent> result = processor.fromTxtFile(new File(".../Students.txt"));
+            ArrayList<IStudent> result = processor.fromTxtFile(new File(".../Students.txt"));
 
             // Getting data from Database
-            ArrayList<IStudent> result = processor.fromDatabase();
+            //ArrayList<IStudent> result = processor.fromDatabase();
 
             for (IStudent s : result) {
                 System.out.println(s.toString());
