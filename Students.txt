@@ -1,0 +1,3 @@
+John	jj@cphbusiness.dk	12.03.1998	28.01.2019
+Anna	aa@cphbusiness.dk	07.08.1996	28.01.2019
+Tom	tt@cphbusiness.dk	23.05.1997	28.01.2019
